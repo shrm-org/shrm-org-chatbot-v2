@@ -1,0 +1,796 @@
+{
+  "tests": [
+    {
+      "input": "When is the next annual conference?",
+      "expectedResult": {
+        "qid": "AC.003"
+      }
+    },
+    {
+      "input": "I need an I-9 form",
+      "expectedResult": {
+        "topic": "I-9"
+      }
+    },
+    {
+      "input": "Where can I find information on the Americans with Disabilties Act (ADA)?",
+      "expectedResult": {
+        "qid": "ADA.001"
+      }
+    },
+    {
+      "input": "What employers are covered under the Americans with Disabilities Act (ADA)?",
+      "expectedResult": {
+        "qid": "ADA.002"
+      }
+    },
+    {
+      "input": "What is considered undue hardship?",
+      "expectedResult": {
+        "qid": "ADA.003"
+      }
+    },
+    {
+      "input": "Do you have a sample background check policy?",
+      "expectedResult": {
+        "qid": "BC.001"
+      }
+    },
+    {
+      "input": "Can employers offer different benefits to different employees?",
+      "expectedResult": {
+        "qid": "BEN.001"
+      }
+    },
+    {
+      "input": "Do we have to give benefits to employees working abroad?",
+      "expectedResult": {
+        "qid": "BEN.002"
+      }
+    },
+    {
+      "input": "What is a dual career ladder?",
+      "expectedResult": {
+        "qid": "CD.001"
+      }
+    },
+    {
+      "input": "How can I progress in my HR career?",
+      "expectedResult": {
+        "qid": "CD.002"
+      }
+    },
+    {
+      "input": "What are the SHRM-CP or SHRM-SCP certifications?",
+      "expectedResult": {
+        "qid": "CERT.001"
+      }
+    },
+    {
+      "input": "How do I apply for a SHRM certification?",
+      "expectedResult": {
+        "qid": "CERT.002"
+      }
+    },
+    {
+      "input": "What types of conferences does SHRM offer?",
+      "expectedResult": {
+        "qid": "CON.001"
+      }
+    },
+    {
+      "input": "Do you have a sample employment applications?",
+      "expectedResult": {
+        "qid": "EA.001"
+      }
+    },
+    {
+      "input": "Do we need to have job applications?",
+      "expectedResult": {
+        "qid": "EA.002"
+      }
+    },
+    {
+      "input": "How to fill out EEO-1 report",
+      "expectedResult": {
+        "qid": "EEO.001"
+      }
+    },
+    {
+      "input": "Do you have a simple EEO-1 self identification form?",
+      "expectedResult": {
+        "qid": "EEO.002"
+      }
+    },
+    {
+      "input": "How do I create an employee handbook?",
+      "expectedResult": {
+        "qid": "EH.001"
+      }
+    },
+    {
+      "input": "How can we help an employee who is being abused?",
+      "expectedResult": {
+        "qid": "HR.001"
+      }
+    },
+    {
+      "input": "What should be in an employee file?",
+      "expectedResult": {
+        "qid": "HR.002"
+      }
+    },
+    {
+      "input": "What is a 9-box grid?",
+      "expectedResult": {
+        "qid": "HR.003"
+      }
+    },
+    {
+      "input": "How do you perform a job analysis?",
+      "expectedResult": {
+        "qid": "HR.004"
+      }
+    },
+    {
+      "input": "What should we be aware of when switching from hard copy to electronic files?",
+      "expectedResult": {
+        "qid": "HR.005"
+      }
+    },
+    {
+      "input": "What metrics should HR use?",
+      "expectedResult": {
+        "qid": "HR.006"
+      }
+    },
+    {
+      "input": "What termination forms must be given in California?",
+      "expectedResult": {
+        "qid": "HR.007"
+      }
+    },
+    {
+      "input": "What is a compensation philosophy?",
+      "expectedResult": {
+        "qid": "HR.008"
+      }
+    },
+    {
+      "input": "What can I ask on a job application?",
+      "expectedResult": {
+        "qid": "HR.009"
+      }
+    },
+    {
+      "input": "What is the difference between EEO, affirmative action and diversity?",
+      "expectedResult": {
+        "qid": "HR.010"
+      }
+    },
+    {
+      "input": "Do we have to allow a service dog in the office?",
+      "expectedResult": {
+        "qid": "HR.011"
+      }
+    },
+    {
+      "input": "Do I have to complete another I-9 when there is a name change?",
+      "expectedResult": {
+        "qid": "HR.012"
+      }
+    },
+    {
+      "input": "What does severance include?",
+      "expectedResult": {
+        "qid": "HR.013"
+      }
+    },
+    {
+      "input": "Do all exempt employees need to be paid the minimum salary under the FLSA?",
+      "expectedResult": {
+        "qid": "HR.014"
+      }
+    },
+    {
+      "input": "What is considered a serious health condition?",
+      "expectedResult": {
+        "qid": "HR.015"
+      }
+    },
+    {
+      "input": "Can I fire someone for drinking on the job?",
+      "expectedResult": {
+        "qid": "HR.016"
+      }
+    },
+    {
+      "input": "How should we handle it when an employee asks for a pay raise?",
+      "expectedResult": {
+        "qid": "HR.017"
+      }
+    },
+    {
+      "input": "What is the Summary of Benefits and Coverage under the ACA?",
+      "expectedResult": {
+        "qid": "HR.018"
+      }
+    },
+    {
+      "input": "Can we require an employee to use vacation?",
+      "expectedResult": {
+        "qid": "HR.019"
+      }
+    },
+    {
+      "input": "Do we have to allow religious decorations at work?",
+      "expectedResult": {
+        "qid": "HR.020"
+      }
+    },
+    {
+      "input": "Can we switch from lump sum to accrual of vacation?",
+      "expectedResult": {
+        "qid": "HR.021"
+      }
+    },
+    {
+      "input": "How can an employer prevent vandalism in the employee restrooms?",
+      "expectedResult": {
+        "qid": "HR.022"
+      }
+    },
+    {
+      "input": "What deductions can I make from an employee's pay in California?",
+      "expectedResult": {
+        "qid": "HR.023"
+      }
+    },
+    {
+      "input": "Can we ask employees for periodic doctor's notes when they are on FMLA leave?",
+      "expectedResult": {
+        "qid": "HR.024"
+      }
+    },
+    {
+      "input": "Do holidays count as FMLA leave?",
+      "expectedResult": {
+        "qid": "HR.025"
+      }
+    },
+    {
+      "input": "What do we do if an employee quits while on FMLA leave?",
+      "expectedResult": {
+        "qid": "HR.026"
+      }
+    },
+    {
+      "input": "Do we have to sponsor someone who requires an employment visa to work in the U.S.?",
+      "expectedResult": {
+        "qid": "HR.027"
+      }
+    },
+    {
+      "input": "What is the foreign labor certification process for hiring foreign workers?",
+      "expectedResult": {
+        "qid": "HR.028"
+      }
+    },
+    {
+      "input": "When does an H-2B visa expire?",
+      "expectedResult": {
+        "qid": "HR.029"
+      }
+    },
+    {
+      "input": "Can an employer hire a candidate on an H-1B visa who is already working for another employer?",
+      "expectedResult": {
+        "qid": "HR.030"
+      }
+    },
+    {
+      "input": "What is a vacation buy out plan?",
+      "expectedResult": {
+        "qid": "HR.031"
+      }
+    },
+    {
+      "input": "Do we have to pay vacation balances upon termination?",
+      "expectedResult": {
+        "qid": "HR.032"
+      }
+    },
+    {
+      "input": "What should an employer do if an employee needs an accommodation but does not have a doctor's note?",
+      "expectedResult": {
+        "qid": "HR.033"
+      }
+    },
+    {
+      "input": "Is there a list of disabilities under the Americans with Disabilities Act (ADA)?",
+      "expectedResult": {
+        "qid": "HR.034"
+      }
+    },
+    {
+      "input": "Can we hire an independent contractor outside of the U.S.?",
+      "expectedResult": {
+        "qid": "HR.035"
+      }
+    },
+    {
+      "input": "Can we run a background check on an independent contractor?",
+      "expectedResult": {
+        "qid": "HR.036"
+      }
+    },
+    {
+      "input": "Can independent contractors supervise employees?",
+      "expectedResult": {
+        "qid": "HR.037"
+      }
+    },
+    {
+      "input": "Can an independent contractor also intern with the same company?",
+      "expectedResult": {
+        "qid": "HR.038"
+      }
+    },
+    {
+      "input": "Can we make an exempt employee non-exempt?",
+      "expectedResult": {
+        "qid": "HR.039"
+      }
+    },
+    {
+      "input": "Can we dock an exempt employee's pay for a policy violation?",
+      "expectedResult": {
+        "qid": "HR.040"
+      }
+    },
+    {
+      "input": "How do I pay an employee who travels overnight?",
+      "expectedResult": {
+        "qid": "HR.041"
+      }
+    },
+    {
+      "input": "Who can conduct sexual harassment investigations in California?",
+      "expectedResult": {
+        "qid": "HR.042"
+      }
+    },
+    {
+      "input": "How do I conduct a workplace investigation into bullying when there are no witnesses?",
+      "expectedResult": {
+        "qid": "HR.043"
+      }
+    },
+    {
+      "input": "Who needs to complete a Form I-9?",
+      "expectedResult": {
+        "qid": "HR.044"
+      }
+    },
+    {
+      "input": "Does HR have to complete the I-9?",
+      "expectedResult": {
+        "qid": "HR.045"
+      }
+    },
+    {
+      "input": "Can I complete the I-9 Form for an employee?",
+      "expectedResult": {
+        "qid": "HR.046"
+      }
+    },
+    {
+      "input": "What is a values-based organization?",
+      "expectedResult": {
+        "qid": "HR.047"
+      }
+    },
+    {
+      "input": "What is a mission statement?",
+      "expectedResult": {
+        "qid": "HR.048"
+      }
+    },
+    {
+      "input": "Should we include vision and values in our performance reviews?",
+      "expectedResult": {
+        "qid": "HR.049"
+      }
+    },
+    {
+      "input": "How long do we need to keep disciplinary action forms in employee files?",
+      "expectedResult": {
+        "qid": "HR.050"
+      }
+    },
+    {
+      "input": "Can we terminate for poor performance?",
+      "expectedResult": {
+        "qid": "HR.051"
+      }
+    },
+    {
+      "input": "What do we do if an employee mentions a health issue during a counseling?",
+      "expectedResult": {
+        "qid": "HR.052"
+      }
+    },
+    {
+      "input": "Are diversity initiatives impeded by pre-employment testing?",
+      "expectedResult": {
+        "qid": "HR.053"
+      }
+    },
+    {
+      "input": "Can we conduct pre-employment physical exams?",
+      "expectedResult": {
+        "qid": "HR.054"
+      }
+    },
+    {
+      "input": "Can we complete a background check before making a job offer?",
+      "expectedResult": {
+        "qid": "HR.055"
+      }
+    },
+    {
+      "input": "Do we need to check the SDN list for all applicants?",
+      "expectedResult": {
+        "qid": "HR.056"
+      }
+    },
+    {
+      "input": "Can we ask about an applicant's arrest record?",
+      "expectedResult": {
+        "qid": "HR.057"
+      }
+    },
+    {
+      "input": "What is a reasonable person?",
+      "expectedResult": {
+        "qid": "HR.058"
+      }
+    },
+    {
+      "input": "What should we do if an employee threatens to commit suicide?",
+      "expectedResult": {
+        "qid": "HR.059"
+      }
+    },
+    {
+      "input": "What is job rotation?",
+      "expectedResult": {
+        "qid": "HR.060"
+      }
+    },
+    {
+      "input": "Do we have to give an employee off on a religious holiday?",
+      "expectedResult": {
+        "qid": "HR.061"
+      }
+    },
+    {
+      "input": "Can we require proof for a religious accommodation request?",
+      "expectedResult": {
+        "qid": "HR.062"
+      }
+    },
+    {
+      "input": "Do we have to allow an employee off on Sundays to go to church?",
+      "expectedResult": {
+        "qid": "HR.063"
+      }
+    },
+    {
+      "input": "How do we handle a bullying situation?",
+      "expectedResult": {
+        "qid": "HR.064"
+      }
+    },
+    {
+      "input": "How to Handle an Employee’s Request for an ADA Accommodation",
+      "expectedResult": {
+        "qid": "HT.001"
+      }
+    },
+    {
+      "input": "What is the definition of an independent contractor?",
+      "expectedResult": {
+        "qid": "IC.001"
+      }
+    },
+    {
+      "input": "May an employee also work as an independent contractor for the same employer?",
+      "expectedResult": {
+        "qid": "IC.002"
+      }
+    },
+    {
+      "input": "Do you have a test for independent contractor status?",
+      "expectedResult": {
+        "qid": "IC.003"
+      }
+    },
+    {
+      "input": "Do you have a checklist for independent contractors?",
+      "expectedResult": {
+        "qid": "IC.004"
+      }
+    },
+    {
+      "input": "What are the risks in not running a background check on contingent workers?",
+      "expectedResult": {
+        "qid": "IC.005"
+      }
+    },
+    {
+      "input": "Do you have sample interview questions?",
+      "expectedResult": {
+        "qid": "INT.001"
+      }
+    },
+    {
+      "input": "What are behavioral interviews?",
+      "expectedResult": {
+        "qid": "INT.002"
+      }
+    },
+    {
+      "input": "What is job analysis?",
+      "expectedResult": {
+        "qid": "JA.001"
+      }
+    },
+    {
+      "input": "Are job analysis and job evaluation the same?",
+      "expectedResult": {
+        "qid": "JA.002"
+      }
+    },
+    {
+      "input": "What is an HR Dashboard?",
+      "expectedResult": {
+        "qid": "LSM.001"
+      }
+    },
+    {
+      "input": "How do you calculate turnover rate?",
+      "expectedResult": {
+        "qid": "LSM.002"
+      }
+    },
+    {
+      "input": "Do you have a calculator for cost of turnover?",
+      "expectedResult": {
+        "qid": "LSM.003"
+      }
+    },
+    {
+      "input": "What external and internal costs should be included in a cost-per-hire calculation?",
+      "expectedResult": {
+        "qid": "LSM.004"
+      }
+    },
+    {
+      "input": "Do you have tools for building a leadership development strategy?",
+      "expectedResult": {
+        "qid": "LSM.005"
+      }
+    },
+    {
+      "input": "Do you have tools for building an HR strategy?",
+      "expectedResult": {
+        "qid": "LSM.006"
+      }
+    },
+    {
+      "input": "What are the benefits of being a SHRM member?",
+      "expectedResult": {
+        "qid": "MEMB.001"
+      }
+    },
+    {
+      "input": "How do I become a member?",
+      "expectedResult": {
+        "qid": "MEMB.002"
+      }
+    },
+    {
+      "input": "How much does membership cost?",
+      "expectedResult": {
+        "qid": "MEMB.003"
+      }
+    },
+    {
+      "input": "How can I print a receipt or confirmation?",
+      "expectedResult": {
+        "qid": "MEMB.004"
+      }
+    },
+    {
+      "input": "How can I pay for renewal of my membership with SHRM?",
+      "expectedResult": {
+        "qid": "MEMB.005"
+      }
+    },
+    {
+      "input": "How can I sign up for my SHRM membership?",
+      "expectedResult": {
+        "qid": "MEMB.006"
+      }
+    },
+    {
+      "input": "How do I log into MySHRM?",
+      "expectedResult": {
+        "qid": "MYSHRM.001"
+      }
+    },
+    {
+      "input": "How do I update my demographics?",
+      "expectedResult": {
+        "qid": "MYSHRM.002"
+      }
+    },
+    {
+      "input": "Do you have sample mission statements?",
+      "expectedResult": {
+        "qid": "OC.001"
+      }
+    },
+    {
+      "input": "Do we have to allow terminated employees to see their file?",
+      "expectedResult": {
+        "qid": "RR.001"
+      }
+    },
+    {
+      "input": "How long do we need to keep employee records?",
+      "expectedResult": {
+        "qid": "RR.002"
+      }
+    },
+    {
+      "input": "Can you help me find a seminar?",
+      "expectedResult": {
+        "qid": "SEM.001"
+      }
+    },
+    {
+      "input": "How can I register for a seminar?",
+      "expectedResult": {
+        "qid": "SEM.002"
+      }
+    },
+    {
+      "input": "Can we make deductions from severance?",
+      "expectedResult": {
+        "qid": "SEV.001"
+      }
+    },
+    {
+      "input": "Do you have a sample severance pay policy?",
+      "expectedResult": {
+        "qid": "SEV.002"
+      }
+    },
+    {
+      "input": "Do you have a sample severance waiver?",
+      "expectedResult": {
+        "qid": "SEV.003"
+      }
+    },
+    {
+      "input": "How do we know if an employee is being insubordinate?",
+      "expectedResult": {
+        "qid": "SHRM.001"
+      }
+    },
+    {
+      "input": "Do we have to accommodate disabled applicants during an interview?",
+      "expectedResult": {
+        "qid": "SHRM.003"
+      }
+    },
+    {
+      "input": "How do we handle final pay in California?",
+      "expectedResult": {
+        "qid": "SHRM.004"
+      }
+    },
+    {
+      "input": "Do we have to pay for mileage?",
+      "expectedResult": {
+        "qid": "SHRM.005"
+      }
+    },
+    {
+      "input": "Do you have a sample succession planning policy?",
+      "expectedResult": {
+        "qid": "SP.001"
+      }
+    },
+    {
+      "input": "What is succession planning?",
+      "expectedResult": {
+        "qid": "SP.002"
+      }
+    },
+    {
+      "input": "Do you have a sample succession planning form?",
+      "expectedResult": {
+        "qid": "SP.003"
+      }
+    },
+    {
+      "input": "Do you have succession planning training?",
+      "expectedResult": {
+        "qid": "SP.004"
+      }
+    },
+    {
+      "input": "How can I access the SHRMStore?",
+      "expectedResult": {
+        "qid": "STO.001"
+      }
+    },
+    {
+      "input": "Can employees share hotel rooms?",
+      "expectedResult": {
+        "qid": "TE.001"
+      }
+    },
+    {
+      "input": "Do you have a sample travel policy?",
+      "expectedResult": {
+        "qid": "TE.002"
+      }
+    },
+    {
+      "input": "Do you have a sample travel expense policy?",
+      "expectedResult": {
+        "qid": "TE.003"
+      }
+    },
+    {
+      "input": "Do you have a sample use of company property policy?",
+      "expectedResult": {
+        "qid": "VAN.001"
+      }
+    },
+    {
+      "input": "How do we handle a situation when a married couple who works together have filed for divorce and one spouse has an order of protection?",
+      "expectedResult": {
+        "qid": "VIO.001"
+      }
+    },
+    {
+      "input": "What is sexual harassment?",
+      "expectedResult": {
+        "qid": "WH.001"
+      }
+    },
+    {
+      "input": "Do you have sexual harassment resources?",
+      "expectedResult": {
+        "qid": "WH.002"
+      }
+    },
+    {
+      "input": "How do we conduct an investigation into harassment allegations?",
+      "expectedResult": {
+        "qid": "WI.001"
+      }
+    },
+    {
+      "input": "Are employees allowed to keep guns in their cars?",
+      "expectedResult": {
+        "qid": "WV.001"
+      }
+    }
+  ]
+}

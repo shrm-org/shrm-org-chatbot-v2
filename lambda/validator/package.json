@@ -1,0 +1,15 @@
+{
+  "name": "validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.356.0",
+    "aws4": "^1.8.0",
+    "cfn-lambda": "^2.1.3",
+    "fs": "^0.0.1-security"
+  }
+}
