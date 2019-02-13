@@ -74,8 +74,7 @@ function init(){
             store,
             render:h=>h(app)
         })
-        
-        require('./lib/validator')(App)        
+                
         store.state.modal=App.$modal
         router.onReady(()=>App.$mount('#App'))
     })
